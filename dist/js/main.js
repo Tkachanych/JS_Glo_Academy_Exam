@@ -1,1 +1,1 @@
-console.log("Running");
+(()=>{"use strict";(()=>{const e=document.querySelector("div.top-menu");document.querySelector("img.up").addEventListener("click",(e=>{e.preventDefault(),window.scrollTo({top:0,behavior:"smooth"})})),e.addEventListener("click",(e=>{if(e.preventDefault(),"A"!==e.target.tagName)return;const t=e.target.getAttribute("href");document.querySelector(t).scrollIntoView({behavior:"smooth",block:"start"})}))})()})();

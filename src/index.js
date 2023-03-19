@@ -1,1 +1,5 @@
-console.log('Running');
+'use strict';
+
+import navigate from "./modules/navigate";
+
+navigate();
